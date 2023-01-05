@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <style>
+ 
+        html {
+            background-color: #FBEEC8;
+            background-image: url("bg.png");
+        }
+        
+        body {
+            text-align: center;
+        }
+        #list {
+            text-align: left;
+        }
+        
+        .button {
+            text-align: center;
+            width: fit;
+            border-radius: 20px;
+            background-color: rgba(255, 119, 100, 0.3);
+            color: rgb(0, 0, 5);
+            position: relative;
+            left: 38px;
+            justify-content: center;
+        }
+
+        h1 {
+            color: red;
+            font-size: 300%;
+            font-weight: bold;
+        }
+
+        
+        </style>
+    </head>
+    <body>
+        <p>
+            <img src="Banner.png" height="113" width="788">
+        </p>
+        <div id="test">
+            <p>
+                <i>
+                    Inspired by The Rice Thresher's Rice Purity Test, Dhoby Ghaut JC presents a SFW version of high school life at DGJC.
+                    <br>
+                    It's a voluntary opportunity for current students to track their experiences, and for past students to reminisce.
+                </i>
+            </p>
+            <p>
+                <strong>
+                    Disclaimer: DGJC operates independently and is not officially affiliated with any other organization in any capacity.
+                    <br>
+                    This page is purely for entertainment purposes. You can contact administrators directly <a href="www.instagram.com/dhobyghautjuniorcollege">here</a> for any concerns.
+                    <br>
+                    <br>
+                    Caution: This is not a bucket list.
+                </strong>
+            </p>
+            <br>
+            <p>
+                Click on every item you have completed during your candidature.
+            </p>
+                <div id="list">
+                    <ol>
+                        <li>
+                            <input type="checkbox" id="1">
+                            Held hands romantically?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="2">
+                            Been on a date with someone from your year?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="3">
+                            Been on a date with a senior?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="4">
+                            Been on a date with a junior?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="5">
+                            Been in a DGJC relationship?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="6">
+                            Been in a relationship with someone outside of DGJC?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="7">
+                            Entered a relationship during IB years?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="8">
+                            Broke up within the month before IB?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="9">
+                            Crushed on a friend's ex?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="10">
+                            Dated a friend's ex?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="11">
+                            Had a crush on more than 2 people from your friend group?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="12">
+                            Dated more than 2 people from your friend group?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="13">
+                            Had a crush on a teacher?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="14">
+                            Been in a DGJC relationship that lasted for >1 year?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="15">
+                            Had a classroom ant infestation?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="16">
+                            Had a lizard in your classroom?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="17">
+                            Killed the lizard in your classroom?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="18">
+                            Spilt / dropped food in the middle of the canteen floor?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="19">
+                            Patronized all canteen stalls at least once?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="20">
+                            Ordered the Cheesy Ham Pasta from the western stall?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="21">
+                            Ate food in the library?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="22">
+                            Got a late submission penalty?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="23">
+                            Got the >1 day late submission penalty?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="24">
+                            Was late and went home?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="25">
+                            'train breakdown'?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="26">
+                            Gave up running and went to Starbucks / Macs for breakfast instead?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="27">
+                            Asked a late friend to get you Starbucks / Macs?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="28">
+                            Got sent for Reflection Time?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="29">
+                            Was late for Reflection time?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="30">
+                            Received >10 demerit points?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="31">
+                            Received >20 demerit points?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="32">
+                            Received a conduct grade lower than 'Very Good'?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="33">
+                            Been the Chinese New Year class mascot?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="34">
+                            Broke into a classroom after 6pm?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="35">
+                            Stayed overnight in school?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="36">
+                            Used the DGJC gym toilet?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="37">
+                            Ordered a food delivery before 1.15pm?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="38">
+                            Failed a subject overall?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="39">
+                            Failed >2 subjects overall?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="40">
+                            Got a warning letter?
+                        </li><li>
+                            <input type="checkbox" id="41">
+                            Received a probation letter?
+                        </li><li>
+                            <input type="checkbox" id="42">
+                            Been on suspension?
+                        </li><li>
+                            <input type="checkbox" id="43">
+                            Got retained?
+                        </li><li>
+                            <input type="checkbox" id="44">
+                            Used the fire escape not during a fire drill?
+                        </li><li>
+                            <input type="checkbox" id="45">
+                            Engaged in Fire Escape Activities?
+                        </li><li>
+                            <input type="checkbox" id="46">
+                            Left in Year 4?
+                        </li><li>
+                            <input type="checkbox" id="47">
+                            Transferred to Laselle / NAFA?
+                        </li><li>
+                            <input type="checkbox" id="48">
+                            Did not submit the Media Education assignment?
+                        </li><li>
+                            <input type="checkbox" id="49">
+                            Never submitted a Year 1 / 2 Chinese June Holiday Project?
+                        </li><li>
+                            <input type="checkbox" id="50">
+                            Have never dressed up for CNY / RHD?
+                        </li><li>
+                            <input type="checkbox" id="51">
+                            Early Release Slip to skip a class?
+                        </li><li>
+                            <input type="checkbox" id="52">
+                            Skipped a class?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="53">
+                            Dyed hair?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="54">
+                            Got called out for dyeing your hair when it was in fact its natural color?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="55">
+                            Misused the lift pass?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="56">
+                            Multiple piercings?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="57">
+                            Folded shorts?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="58">
+                            Altered skirts / pants?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="59">
+                            Cropped shirts?
+                        </li>
+                        <li>
+                            <input type="checkbox" id=60">
+                            Skipped an exam for non-medical reasons? (shame on you)
+                        </li>
+                        <li>
+                            <input type="checkbox" id="61">
+                            Skipped school to attend a concert / event?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="62">
+                            Skipped school to finish an art-form assignment? (god tier)
+                        </li>
+                        <li>
+                            <input type="checkbox" id="63">
+                            Successfully skipped morning assembly?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="64">
+                            Performed at a DGJC event (FWA, Tones, Blackout)?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="65">
+                            Performed during an Open-Mic Wednesday?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="66">
+                            Was the only person running for a CMC position?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="67">
+                            Actually decorated the classroom for the Class Deco competition?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="68">
+                            Attended / Participated in a tchokball competition?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="69">
+                            Tried for LeAd?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="70">
+                            Tried for Photography Crew?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="71">
+                            Was in Morning Assembly Crew and made a mistake in front of the school?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="72">
+                            Borrowed school uniform from the General Office?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="73">
+                            Forgot to wear uniform on phototaking day?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="74">
+                            Attended one of those parties?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="75">
+                            Fell out with your Year 1 / 2 clique?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="76">
+                            Rekindled an old friendship in Year 5 / 6?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="77">
+                            Broken school property?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="78">
+                            Forgot Wednesday was a late day?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="79">
+                            Cried after an exam?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="80">
+                            Cried during the exam?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="81">
+                            Slept through an exam?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="82">
+                            Was late for an exam?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="83">
+                            Arrived in school before 0630?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="84">
+                            Laughed out loud midway through the national anthem and got stared at?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="85">
+                            Explained to multiple people how the curriculum works?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="86">
+                            Had drama with a senior year?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="87">
+                            Worn non-uniform and got away with it?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="88">
+                            Walked around the school barefoot?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="89">
+                            Lost money to the printer / vending machine?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="90">
+                            Vandalised a bench / wall / table?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="91">
+                            Got locked in school past 10pm?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="92">
+                            Made a mistake while making an announcement on stage?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="93">
+                            Had the motion-sensor lights turn off while you were still in the toilet?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="94">
+                            Dated someone from ACS? 
+                        </li>
+                        <li>
+                            <input type="checkbox" id="95">
+                            Worn a sweater in a non-airconditioned classroom?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="96">
+                            Encountered a DGJC flood / water problem?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="97">
+                            Fell on the escalators? (ouch)
+                        </li>
+                        <li>
+                            <input type="checkbox" id="98">
+                            Lost something between the tile cracks?
+                        </li>
+                        <li>
+                            <input type="checkbox" id="99">
+                            Been participated in a Flashmob / Dance Dare? 
+                        </li>
+                        <li>
+                            <input type="checkbox" id="100">
+                            Wore a DGJC t-shirt to school?
+                        </li>
+                    </ol>
+                    <input class="button" type ="button" id="submit" value="Calculate My Score!"/>
+                    <input class="button" type ="button" id="reset" value="Clear Checkboxes"/>
+                </div>
+        </div>
+        <div id="finalScore" style="display:none;">
+                <h2 id="test">Your score:</h2>
+                <h1 id="score"></h1>
+        </div>
+    </body>
+    <script>
+    $('#reset').click(function() {
+        $('input:checkbox').prop('checked', false);
+    });
+
+    $('#submit').click(function() {
+        var selected = document.querySelectorAll('input[type="checkbox"]:checked').length;
+        var purity = 100 - selected;
+        $('#score').html(purity);
+        $('#finalScore').show();
+        $('#test').hide();
+    });
+    </script>       
+</html>
