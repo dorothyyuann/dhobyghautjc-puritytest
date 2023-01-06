@@ -5,4 +5,4 @@ It is purely for entertainment purposes and should not be used as a bucket list 
 
 We are not affiliated with any organization. Dhoby Ghaut Junior College is an independent entity.
 
-If you have any concerns, you may contact the administrators [here](instagram.com/dhobyghautjunior college), or make a pull request in this repository.
+If you have any concerns, you may contact the administrators [here](doc:instagram.com/dhobyghautjunior college), or make a pull request in this repository.
